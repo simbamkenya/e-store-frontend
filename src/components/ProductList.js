@@ -1,6 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { useSelector } from 'react-redux'
+// import {useDispatch} from 'react-redux';
+// import { addItem } from '../redux/features/cartSlice';
+
 
 function ProductList() {
+  const products = useSelector(state => console.log(state.product))
+  console.log('pro',products)
+  
   return (
     <div class="bg-white">
     <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">

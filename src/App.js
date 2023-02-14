@@ -9,12 +9,12 @@ import Cart from './components/Cart';
 function App() {
   return (
     <>
-    <Header />
-    <Banner />
+    {/* <Header />
+    <Banner /> */}
     <ProductList />
-    <ShopByCategories />
+    {/* <ShopByCategories />
     <Order />
-    <Cart />
+    <Cart /> */}
     </>
   );
 }
